@@ -18,7 +18,7 @@ Let's briefly cover the main capabilities of each section.
 
 
 
-### \#1 — Resource Panel <a id="1--resource-panel"></a>
+### #1 — Resource Panel <a href="1--resource-panel" id="1--resource-panel"></a>
 
 The resource panel contains eight resources, each represented by a unique icon.
 
@@ -28,22 +28,22 @@ The resource panel contains eight resources, each represented by a unique icon.
 
 [Boards](../superquery-editor/organizing-queries.md) are like folders, where you can organize your queries by topic, theme, project. Think of them as a filing & management system for your queries.
 
-#### Resources  <a id="projects"></a>
+#### Resources  <a href="projects" id="projects"></a>
 
 [![](https://downloads.intercomcdn.com/i/o/162586232/2f6b298a4d97ab75c6b3dbc1/projects.png)](https://downloads.intercomcdn.com/i/o/162586232/2f6b298a4d97ab75c6b3dbc1/projects.png)
 
-Access all of your BigQuery projects and resources for other supported services \(AWS Athena and DynamoDB\) here.  
+Access all of your BigQuery projects and resources for other supported services (AWS Athena and DynamoDB) here.\
 
 
-#### Schema <a id="schema"></a>
+#### Schema <a href="schema" id="schema"></a>
 
 [![](https://downloads.intercomcdn.com/i/o/162587680/541666f1e4269e9b643dfa05/schema.png)](https://downloads.intercomcdn.com/i/o/162587680/541666f1e4269e9b643dfa05/schema.png)
 
-View columns of the table\(s\) being queried in your current query tab. 
+View columns of the table(s) being queried in your current query tab.&#x20;
 
 [Schema](../superquery-editor/schema.md) is automatically detected based on the tables queried in your SQL.
 
-  
+\
 **Query History**
 
 [![](https://downloads.intercomcdn.com/i/o/162595843/e4ad30227edb768a9248e820/scheduled.png)](https://downloads.intercomcdn.com/i/o/162595843/e4ad30227edb768a9248e820/scheduled.png)
@@ -52,15 +52,15 @@ Query history displays the previous queries you've executed in superQuery and Bi
 
 
 
-#### **Scheduled Queries** [![](https://downloads.intercomcdn.com/i/o/162595797/4e75d0213a3a869dc4799b1d/queryhistory.png)](https://downloads.intercomcdn.com/i/o/162595797/4e75d0213a3a869dc4799b1d/queryhistory.png)
+#### **Scheduled Queries** ****[![](https://downloads.intercomcdn.com/i/o/162595797/4e75d0213a3a869dc4799b1d/queryhistory.png)](https://downloads.intercomcdn.com/i/o/162595797/4e75d0213a3a869dc4799b1d/queryhistory.png)
 
-Manage and edit your [scheduled queries](../scheduled-queries/managing-scheduled-queries.md) here. 
+Manage and edit your [scheduled queries](../scheduled-queries/managing-scheduled-queries.md) here.&#x20;
 
-#### 
+####
 
 #### Source Control
 
-![](../.gitbook/assets/sourcecontrol.jpg)
+![](../.gitbook/assets/SourceControl.jpg)
 
 Connect your [GitHub repository](../git-integrations/connect-github.md) or [GitLab project](../git-integrations/connect-gitlab.md) to superQuery.
 
@@ -74,11 +74,11 @@ Once connected, it's easy to back up queries, catalogue them, and version-contro
 
 Toggle between Dark Mode and Light Mode with a single click.
 
-#### 
+####
 
 #### superQuery Help
 
-![](../.gitbook/assets/help.jpg)
+![](../.gitbook/assets/Help.jpg)
 
 Clicking on this icon gives you several options:
 
@@ -91,18 +91,18 @@ Clicking on this icon gives you several options:
 
 **Profile**
 
-\*\*\*\*[![](https://downloads.intercomcdn.com/i/o/162598834/d1720f085eeefd43f17ee639/user-profile.png)](https://downloads.intercomcdn.com/i/o/162598834/d1720f085eeefd43f17ee639/user-profile.png)
+****[![](https://downloads.intercomcdn.com/i/o/162598834/d1720f085eeefd43f17ee639/user-profile.png)](https://downloads.intercomcdn.com/i/o/162598834/d1720f085eeefd43f17ee639/user-profile.png)
 
 * View and change your billing plan
 * Connect your Google Cloud Storage bucket to save downloaded CSV results there.
 
-### \#2 — SQL Editor
+### #2 — SQL Editor
 
 The SQL Editor is where you write your queries. In the editor, you have the following capabilities for analyzing data faster and more efficiently.
 
 #### Query Tabs
 
-Organize your queries into [tabs](../superquery-editor/query-tabs.md) that you can name & easily identify later. 
+Organize your queries into [tabs](../superquery-editor/query-tabs.md) that you can name & easily identify later.&#x20;
 
 Tabs allow you to work across multiple queries in one window. The SQL persists across sessions, similar to how you work in a Google Doc — meaning you won't lose your work if you refresh the page or close your session.
 
@@ -112,17 +112,17 @@ With tabs, you can easily jump between queries you're working on.
 
 Know your query's cost before executing it. Avoid costly mistakes and query with transparency.
 
-![](../.gitbook/assets/image%20%28106%29.png)
+![](<../.gitbook/assets/image (3).png>)
 
 #### Variables
 
-[Variables](../superquery-editor/variables.md) are placeholders for values that can change. 
+[Variables](../superquery-editor/variables.md) are placeholders for values that can change.&#x20;
 
-When you find yourself constantly updating a WHERE clause, then variables can be useful.  
-  
+When you find yourself constantly updating a WHERE clause, then variables can be useful.\
+\
 They make your queries more readable and allow you to perform quick changes on your query without modifying the SQL itself.
 
-![](../.gitbook/assets/changevariable%20%281%29.gif)
+![](<../.gitbook/assets/ChangeVariable (1).gif>)
 
 #### Autocomplete
 
@@ -134,17 +134,17 @@ Write queries faster using SQL Autocomplete.
 
 [Share a query tab](../superquery-editor/query-tabs.md#share-tab), or an [entire Board](../superquery-editor/organizing-queries.md#share-a-board), with your team.
 
-![](../.gitbook/assets/sharequeryes.gif)
+![](../.gitbook/assets/ShareQueryes.gif)
 
 #### Manually commit queries to Github or GitLab
 
 Use [Manual Commit](../git-integrations/add-commit-messages.md) to add a message to your Git commits, or if you want to commit a change without running the query.
 
-![](../.gitbook/assets/manual-commit.gif)
+![](<../.gitbook/assets/Manual Commit.gif>)
 
 
 
-### \#3 — Results Grid
+### #3 — Results Grid
 
 In your results grid, you can:
 
@@ -153,19 +153,19 @@ In your results grid, you can:
 * Preview tables and views and see their details.
 * Make changes to views and [commit them to Git](../git-integrations/version-control-views.md)
 
-![](../.gitbook/assets/chartssq-.gif)
+![](<../.gitbook/assets/ChartsSQ (1).gif>)
 
 
 
-### \#4 - Dashboard View
+### #4 - Dashboard View
 
 The **Visualize** toggle transforms the latest results of all of your query tabs into a [dashboard](../dashboards/create-dashboards.md) in one click — no exporting required.
 
-![](../.gitbook/assets/visuallizesq.gif)
+![](../.gitbook/assets/VisuallizeSQ.gif)
 
-### \#5 — Right Pane
+### #5 — Right Pane
 
-Your right pane \(highlighted below\) is separated into the following features
+Your right pane (highlighted below) is separated into the following features
 
 * [Schedule Query](../scheduled-queries/schedule-query.md) - schedule your current tab's SQL to run at a regularly scheduled interval
 * [Query Tab Settings](../superquery-editor/tab-settings.md) - modify settings for your query tab like billing project, destination table, and more
@@ -176,8 +176,6 @@ Your right pane \(highlighted below\) is separated into the following features
   * Save To - saves your current query tab to a different board
   * Download SQL - downloads your current query tab's SQL into a .sql file
 
-![](../.gitbook/assets/cleanshot-2021-02-22-at-12.23.06.jpg)
+![](<../.gitbook/assets/CleanShot 2021-02-22 at 12.23.06.jpg>)
 
-  
-
-
+\

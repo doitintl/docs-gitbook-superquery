@@ -8,11 +8,11 @@ Follow these short instructions to have all downloaded CSV results go into a GCS
 
 Open superQuery and click on your Profile icon in the Resource Panel. Then, click on "**Settings**".
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](<../.gitbook/assets/image (98).png>)
 
-You should arrive at the "**System Preferences**" tab. Under "**Download CSV**", select **Private**. 
+You should arrive at the "**System Preferences**" tab. Under "**Download CSV**", select **Private**.&#x20;
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](<../.gitbook/assets/image (99).png>)
 
 Then click "**Set credentials**" to set up your Google Cloud Storage service account.
 
@@ -23,7 +23,7 @@ Then click "**Set credentials**" to set up your Google Cloud Storage service acc
 
 Keys created using the GCP Console or the `gcloud` command-line tool look like this:
 
-```text
+```
 {
 "type": "service_account",
 "project_id": "[PROJECT-ID]",
@@ -38,5 +38,4 @@ Keys created using the GCP Console or the `gcloud` command-line tool look like t
 }
 ```
 
-![](../.gitbook/assets/image%20%2899%29.png)
-
+![](<../.gitbook/assets/image (101).png>)

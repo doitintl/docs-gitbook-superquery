@@ -20,26 +20,26 @@ Let's get started.
 
 Under "Resources", click on the "**+**" sign next to the Connections tab.
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](<../.gitbook/assets/image (59).png>)
 
 Next, under "Available Integrations" click on the "Connect" button that appears next to "Athena".
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](<../.gitbook/assets/image (58).png>)
 
 A modal will appear for you to enter your AWS Athena credentials:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (60).png>)
 
 ## Enter AWS Athena credentials
 
 There are two ways to connect AWS Athena to superQuery, all depending on your preference. However, each method begins with the same two steps:
 
 1. Give your connection any name you'd like.
-2. Select which region\(s\) you want to connect to.
+2. Select which region(s) you want to connect to.
 
 ### Choose your authentication method
 
-#### Method \#1: Use your Access keys
+#### Method #1: Use your Access keys
 
 In order to get your **Access Key ID** and **Secret Access Key** follow these steps:
 
@@ -56,11 +56,11 @@ Your keys will look something like this:
 
 Finally, click **Download Credentials**, and store the keys in a secure location.
 
-#### Method \#2: Connect via your IAM Role ARN
+#### Method #2: Connect via your IAM Role ARN
 
 An IAM role is an IAM identity that you can create in your account that has specific permissions.
 
-[Amazon Resource Name \(ARN\)](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-arns) formatting is used to uniquely identify AWS resources — in this case, your IAM role.
+[Amazon Resource Name (ARN)](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference\_identifiers.html#identifiers-arns) formatting is used to uniquely identify AWS resources — in this case, your IAM role.
 
 Example formatting: arn:aws:iam::account-id:role/role-name
 
@@ -86,7 +86,7 @@ Once you've completed these steps, you'll have the information needed to provide
 
 To grab the IAM Role ARN, open IAM, and search for the Role you created. Click on the role and under the Summary, copy the value next to "Role ARN".
 
-![](../.gitbook/assets/image%20%28105%29.png)
+![](<../.gitbook/assets/image (61).png>)
 
 ### Choose your query result location
 
@@ -96,7 +96,7 @@ For the last part of your Athena setup, you'll need to choose among three option
 2. An S3 Bucket you specify
 3. Another Workgroup
 
-#### Option \#1: Save results to default workgroup
+#### Option #1: Save results to default workgroup
 
 By default, each AWS account has a primary workgroup and the default permissions allow all authenticated users access to this workgroup.
 
@@ -104,19 +104,19 @@ Before choosing to save results to your default workgroup, make sure that a quer
 
 To check this, go to your Workgroup tab from the Athena UI, select the radio button next to the primary workgroup, and then click "View Details".
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](<../.gitbook/assets/image (62).png>)
 
-#### Option \#2: Specify an S3 Bucket
+#### Option #2: Specify an S3 Bucket
 
 If you'd like to explicitly tell superQuery which bucket to save query results in, choose this option.
 
 Paste your query result location link here.
 
-#### Option \#3: Specify a Workgroup
+#### Option #3: Specify a Workgroup
 
 If you'd like to save results to a workgroup that isn't the primary workgroup, enter that workgroup's name here.
 
-Much like with option \#1, make sure that a query result location is defined for the workgroup you'd like to use.
+Much like with option #1, make sure that a query result location is defined for the workgroup you'd like to use.
 
 ## Start Querying
 
@@ -124,11 +124,9 @@ Your Athena data is stored and categorized in three levels of hierarchy.
 
 Once you've successfully authenticated and a query result location has been set, your Athena connection will appear in superQuery as one of your main folders.
 
-Under that, you will see the next level of information appear with the naming convention of \[**region**-**database**\].  
-  
+Under that, you will see the next level of information appear with the naming convention of \[**region**-**database**].\
+\
 Finally, you'll find your tables in the database you select.
 
-![](../.gitbook/assets/image%20%2830%29.png)
-
-
+![](<../.gitbook/assets/image (63).png>)
 

@@ -10,9 +10,8 @@ However, there may be cases where you won't want each query execution to be comm
 
 To turn this off, first open your [Query Tab Settings](../superquery-editor/tab-settings.md).
 
-![](../.gitbook/assets/cleanshot-2020-07-08-at-12.00.56.gif)
+![](<../.gitbook/assets/CleanShot 2020-07-08 at 12.00.56.gif>)
 
 Then, towards the bottom of your Query Tab Settings, click on the toggle next to "Auto Commit" to toggle it off.
 
-![](../.gitbook/assets/image%20%2825%29.png)
-
+![](<../.gitbook/assets/image (47).png>)

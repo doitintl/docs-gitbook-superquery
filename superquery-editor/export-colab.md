@@ -4,36 +4,36 @@ description: Go from your editor to a Jupyter Notebook environment in one click
 
 # Export your query to Google Colab
 
-In this post, we'll go over how to seamlessly export your SQL to [Google Colab](https://colab.research.google.com/), or to a .ipynb format.  
-  
+In this post, we'll go over how to seamlessly export your SQL to [Google Colab](https://colab.research.google.com), or to a .ipynb format.\
+\
 If you're a data scientist, or just work with python in general, Jupyter Notebooks likely represent the hub where most of your work gets done.
 
-   
-[Google Colab](https://colab.research.google.com/) is a free cloud service that provides a Jupyter notebook environment, and it requires no setup to use! Perfect for developing deep learning applications, ML education, or just to brush up on your Python skills.
+&#x20;\
+[Google Colab](https://colab.research.google.com) is a free cloud service that provides a Jupyter notebook environment, and it requires no setup to use! Perfect for developing deep learning applications, ML education, or just to brush up on your Python skills.
 
-  
-With this trick, you will go from working on your query in superQuery to exploring it further in Colab with **zero copying and pasting.**  
-  
-The initial process of setting up your connection to Google Colab goes as follows:  
+\
+With this trick, you will go from working on your query in superQuery to exploring it further in Colab with **zero copying and pasting.**\
+\
+The initial process of setting up your connection to Google Colab goes as follows:\
 
 
 ### Step 1: Export query results to Jupyter
 
 After running a query, click on the "Export to Jupyter" icon that appears next to the row count for your results.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](<../.gitbook/assets/image (70).png>)
 
 ### Step 2: Add the Google Drive scope
 
 If this is your first time, you'll be asked to add an auth scope for Google Drive. Because Colab works off of your Google Drive, superQuery requires your permission to access your Drive.
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](<../.gitbook/assets/image (71).png>)
 
 ### Step 3: Review the permissions superQuery is requesting
 
 Click "Allow" to give superQuery the requisite permissions.
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](<../.gitbook/assets/image (73).png>)
 
 
 
@@ -43,7 +43,7 @@ After authenticating and giving the requisite permissions, you will see a slideo
 
 Click "Open" to open your query in a Google Colab notebook.
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](<../.gitbook/assets/image (74).png>)
 
 ### Step 5: Explore your results in Colab
 
@@ -53,7 +53,7 @@ Colab will open with five pre-filled cells containing:
 
 **2.** Code that imports the modules.
 
-**3a.** Authentication of your unique superQuery credentials.  
+**3a.** Authentication of your unique superQuery credentials.\
 **3b.** Your query, as it appeared in superQuery\*\*
 
 \*\* If you had any [variables](variables.md) inserted, they will be converted back to their literal values here.
@@ -62,13 +62,12 @@ Colab will open with five pre-filled cells containing:
 
 **5.** Statistics on your query such as cost, data scanned, or whether you received all or partial results from cache.
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](<../.gitbook/assets/image (75).png>)
 
 When running a query for the first time in Colab, you will be prompted to click a link and get a verification code.
 
-![](../.gitbook/assets/image%20%2894%29.png)
+![](<../.gitbook/assets/image (76).png>)
 
 After entering the verification code, you'll be able to explore your results in a pivot table and get various query statistics.
 
-![](../.gitbook/assets/image%20%2871%29.png)
-
+![](<../.gitbook/assets/image (77).png>)

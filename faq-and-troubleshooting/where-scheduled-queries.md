@@ -6,7 +6,7 @@ When you open superQuery's Scheduled Queries Manager, you might notice that any 
 
 This is because the Query Scheduler isn't simply a wrapper around BigQuery's, but a  new scheduler built from the "ground up".
 
-As a result, your previously scheduled queries aren't carried over initially. 
+As a result, your previously scheduled queries aren't carried over initially.&#x20;
 
 Simply copy + paste the SQL of the scheduled queries you already set up and re-enter the interval and destination table.
 
@@ -17,7 +17,6 @@ Building our own query scheduler allows us to build unique capabilities on top o
 Unique capabilities of the superQuery scheduler include:
 
 * Schedule multiple queries in a single scheduler.
-* You can schedule DML commands \(Create, Edit, Delete\)
+* You can schedule DML commands (Create, Edit, Delete)
 * You can select the billing project the query will be executed on while defining another project inside your SQL.
-* + more to come!
-
+* \+ more to come!

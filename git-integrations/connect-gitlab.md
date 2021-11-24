@@ -10,15 +10,15 @@ By connecting your GitLab project to superQuery, you'll effectively create a que
 
 Let's see how to set this up below.
 
-### Step \#1: Authorize superQuery access to your GitLab account
+### Step #1: Authorize superQuery access to your GitLab account
 
 Click on the "Source Control" icon in the lower-left corner of your navigation panel, and select "Connect to GitLab"
 
-![](../.gitbook/assets/gitlabconnect-2.jpg)
+![](<../.gitbook/assets/GitLabConnect 2.jpg>)
 
 Next, choose your deployment option and click "**Connect**".
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](<../.gitbook/assets/image (29).png>)
 
 #### Connecting to a self-hosted GitLab Instance
 
@@ -29,15 +29,15 @@ If you are connecting to a self-hosted GitLab instance, you will need two things
 
 To generate a Personal Access Token, sign in to your GitLab instance and go to Settings.
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](<../.gitbook/assets/image (30).png>)
 
 Next, select "Access Tokens" from the left-hand menu.
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](<../.gitbook/assets/image (31).png>)
 
 Name your token, set an expiration date if you'd like, and under "Scopes" select API.
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](<../.gitbook/assets/image (32).png>)
 
 Finally, click "Create personal access token" at the bottom, copy your token, and paste it into the "Access Token" text box in superQuery.
 
@@ -47,9 +47,9 @@ After clicking "**Connect**", GitLab will open and request authorization for sup
 
 Once you see the message shown below, click "**Authorize**".
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](<../.gitbook/assets/image (33).png>)
 
-### **Step \#2: Select a GitLab project**
+### **Step #2: Select a GitLab project**
 
 {% hint style="info" %}
 Note: This step is for users who connect to a GitLab-hosted project.
@@ -57,13 +57,13 @@ Note: This step is for users who connect to a GitLab-hosted project.
 
 Once you give authorization, the next step is to select the GitLab project you'd like to connect to.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](<../.gitbook/assets/image (34).png>)
 
 A few seconds after selecting it, you should see a success message:
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](<../.gitbook/assets/image (35).png>)
 
-### **Step \#3: Run a query**
+### **Step #3: Run a query**
 
 Once your project is connected, you're all set to start committing queries to GitLab!
 
@@ -73,32 +73,31 @@ This means that your queries will be committed to GitLab once executed, and assu
 
 If you'd prefer to manually commit your query without having to execute the query, or want to add a commit message, then use the manual Commit option as shown below.
 
-![](../.gitbook/assets/manualcommit.gif)
+![](../.gitbook/assets/ManualCommit.gif)
 
-### Step \#4: View your changes in GitLab
+### Step #4: View your changes in GitLab
 
-In GitLab, your queries are organized in your project under a pre-determined hierarchy of User &gt; Board &gt; Query Tab.
+In GitLab, your queries are organized in your project under a pre-determined hierarchy of User > Board > Query Tab.
 
 To see your changes in GitLab, find your query by clicking on:
 
 1. **superQuery**, then
-2. Your superQuery **username** \(i.e. email address\), then
+2. Your superQuery **username** (i.e. email address), then
 3. The **Board** the query is in, and finally
 4. The name of the **query tab**, you made the changes in.
 
-For example, in our case the path would be **superquery-queries** \[project\] &gt; **superQuery &gt; My Store Sales** \[Board name\] &gt; **Most Profitable Days** \[tab name\].
+For example, in our case the path would be **superquery-queries** \[project] > **superQuery > My Store Sales** \[Board name] > **Most Profitable Days** \[tab name].
 
-Once arriving at the query tab you want to examine \(in our case below, "Most Profitable Days"\), you will see the last version committed to your GitLab project.
+Once arriving at the query tab you want to examine (in our case below, "Most Profitable Days"), you will see the last version committed to your GitLab project.
 
 To view the history of changes and see what changes were made, click on "History"
 
-![](../.gitbook/assets/image%20%28100%29.png)
+![](<../.gitbook/assets/image (37).png>)
 
 You will be able to see your latest commits / changes made to that tab.
 
-![](../.gitbook/assets/image%20%28108%29.png)
+![](<../.gitbook/assets/image (38).png>)
 
 Finally, click on any of the messages to see the changes made in that commit.
 
-![](../.gitbook/assets/image%20%2873%29.png)
-
+![](<../.gitbook/assets/image (39).png>)

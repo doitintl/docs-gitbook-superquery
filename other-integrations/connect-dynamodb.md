@@ -18,23 +18,23 @@ Let's get started!
 
 ## Navigate to DynamoDB connection pop-up
 
- Under "Resources", click on the "**+**" sign next to the Connections tab.
+&#x20;Under "Resources", click on the "**+**" sign next to the Connections tab.
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](<../.gitbook/assets/image (59).png>)
 
 Next, under "Available Integrations" click on the "Connect" button that appears next to "DynamoDB".
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](<../.gitbook/assets/image (64).png>)
 
 
 
 A modal will appear for you to enter your AWS Athena credentials:
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](<../.gitbook/assets/image (65).png>)
 
 ## Enter your DynamoDB credentials
 
-First, give your connection any name you'd like. Then, select which region\(s\) you want to connect to.
+First, give your connection any name you'd like. Then, select which region(s) you want to connect to.
 
 ### Authentication
 
@@ -43,7 +43,7 @@ There are two ways to connect DynamoDB to superQuery
 1. Using Account Access Keys
 2. Connecting via your IAM Role ARN
 
-**Method \#1: Use your Account Access Keys**
+**Method #1: Use your Account Access Keys**
 
 In this first method, you'll just need to enter your Access key and Secret Access key from AWS.
 
@@ -62,11 +62,11 @@ Your keys will look something like this:
 
 Finally, click **Download Credentials**, and store the keys in a secure location.
 
-#### Method \#2: Connect via your IAM Role ARN
+#### Method #2: Connect via your IAM Role ARN
 
 An IAM role is an IAM identity that you can create in your account that has specific permissions.
 
-[Amazon Resource Name \(ARN\)](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-arns) formatting is used to uniquely identify AWS resources — in this case, your IAM role.
+[Amazon Resource Name (ARN)](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference\_identifiers.html#identifiers-arns) formatting is used to uniquely identify AWS resources — in this case, your IAM role.
 
 Example formatting: arn:aws:iam::account-id:role/role-name
 
@@ -84,9 +84,9 @@ Here's how:
 
 Once you've completed these steps, you'll have the information needed to provide the IAM Role ARN in superQuery, using the formatting mentioned above.
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](<../.gitbook/assets/image (67).png>)
 
-![](../.gitbook/assets/image%20%2872%29.png)
+![](<../.gitbook/assets/image (68).png>)
 
 ## Query a DynamoDB table
 
@@ -94,9 +94,8 @@ Your DynamoDB data is stored and categorized in three levels of hierarchy.
 
 Once you've successfully authenticated and a query result location has been set, your DynamoDB connection will appear in superQuery as one of your main folders as "dynamo-AKIAXXXXXXXXXXXX".
 
-Under that, you will see the next level of information appear with the names of the region\(s\) you selected.  
-  
+Under that, you will see the next level of information appear with the names of the region(s) you selected.\
+\
 Finally, you'll find your tables under the region you select.
 
-![](../.gitbook/assets/image%20%28107%29.png)
-
+![](<../.gitbook/assets/image (69).png>)

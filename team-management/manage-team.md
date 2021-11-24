@@ -1,5 +1,5 @@
 ---
-description: 'Add teammates, set up roles & permissions, manage plans.'
+description: Add teammates, set up roles & permissions, manage plans.
 ---
 
 # Set up and manage your team
@@ -12,17 +12,17 @@ superQuery lets you create and manage your team so you can:
 
 To access your Team Manager, click on your profile in the left-hand resource panel. Then click on "**User Management**".
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](<../.gitbook/assets/image (90).png>)
 
 ## Add teammates
 
 Click the "**Add Users**" button to invite colleagues to your team.
 
-![](../.gitbook/assets/image%20%28111%29.png)
+![](<../.gitbook/assets/image (91).png>)
 
-Enter the email\(s\) of the colleagues you want to invite. Then select whether you'd like them to be an **Admin** or a **User** on your team.
+Enter the email(s) of the colleagues you want to invite. Then select whether you'd like them to be an **Admin** or a **User** on your team.
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](<../.gitbook/assets/image (92).png>)
 
 ### Team Roles
 
@@ -58,12 +58,11 @@ Then select which role you'd like them to have.
 
 ### Bulk Editing
 
-Bulk editing allows you to change the roles & plans of multiple users in a single action. 
+Bulk editing allows you to change the roles & plans of multiple users in a single action.&#x20;
 
 It also allows you to re-invite users to your team in case they missed your invitation. To perform a bulk edit, select the checkbox next to the users whose role and/or plan you'd like to modify.
 
-From there, select the type of role and/or plan you'd like to assign to them and click "**Save"** when finished.  
- 
+From there, select the type of role and/or plan you'd like to assign to them and click "**Save"** when finished.\
+&#x20;
 
-![](../.gitbook/assets/image%20%2829%29.png)
-
+![](<../.gitbook/assets/image (93).png>)

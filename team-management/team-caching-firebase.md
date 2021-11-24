@@ -6,21 +6,21 @@ This post goes over how to set up the cache to be stored on your Firebase.
 
 ### Create JSON key for service account
 
-First, open the [IAM & Admin page](https://console.cloud.google.com/project/_/iam-admin?_ga=2.255639179.-2078623115.1529931311) in the Google Cloud Console. Then, select your project and click "**Continue**".
+First, open the [IAM & Admin page](https://console.cloud.google.com/project/\_/iam-admin?\_ga=2.255639179.-2078623115.1529931311) in the Google Cloud Console. Then, select your project and click "**Continue**".
 
 In the lefthand navigation panel, click "**Service accounts**".
 
-![](../.gitbook/assets/image%20%2867%29.png)
+![](<../.gitbook/assets/image (102).png>)
 
 Then look for the service account for which you wish to create a key. Click the **More ⋮** button in that row, and then select "Create key".
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](<../.gitbook/assets/image (103).png>)
 
 Keep your service account JSON key stored somewhere. It will be used in the next step.
 
 The format of the key may differ depending on how it is generated. Keys created using the GCP Console or the `gcloud`command-line tool look like this:
 
-```text
+```
 {
 "type": "service_account",
 "project_id": "[PROJECT-ID]",
@@ -37,7 +37,7 @@ The format of the key may differ depending on how it is generated. Keys created 
 
 While keys generated with the REST API or client libraries look like this:
 
-```text
+```
 {
 "name": "projects/[PROJECT-ID]/serviceAccounts/[SERVICE-ACCOUNT-EMAIL]/keys/[KEY-ID]",
 "privateKeyType": "TYPE_GOOGLE_CREDENTIALS_FILE",
@@ -52,15 +52,15 @@ While keys generated with the REST API or client libraries look like this:
 
 Open superQuery and click on your Profile icon in the Resource Panel. Then, go to "**Settings**".
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](<../.gitbook/assets/image (98).png>)
 
 Under "**Team Caching**" click the "Private" button and select "Google — Firebase" from the dropdown. Then click on "**Set credentials**" to enter your Firebase details.
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](<../.gitbook/assets/image (99).png>)
 
 Enter your project ID, then copy and paste the JSON key of your service account.
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](<../.gitbook/assets/image (104).png>)
 
 ### Activate Team Caching
 
@@ -74,5 +74,4 @@ Your query's results will come from cache when you see "**100% saved**" next to 
 
 If results come from cache, you will see a message appear above your results like below. If you wish to generate fresh results not from cache, click on **refresh without cache** in your results tab. Hovering over the message will also show the "Last refresh time", which tells you how fresh the data is.
 
-![](../.gitbook/assets/image%20%2881%29.png)
-
+![](<../.gitbook/assets/image (105).png>)

@@ -4,27 +4,27 @@ Boards are like folders for your [Query Tabs](query-tabs.md). Instead of saving 
 
 ## How should I use Boards?
 
-Use boards to group related queries together. 
+Use boards to group related queries together.&#x20;
 
 For example, if you're exploring user metrics AND separately working on a personal project, you wouldn't place all those queries into one board.
 
 As illustrated below, you would separate queries into "User Metrics" and "Personal Project" boards.
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](<../.gitbook/assets/image (7).png>)
 
 ## How do I create and access my boards?
 
 ### Accessing Boards
 
-Click on the **Boards** icon \(shown below\) in your Resource Panel to open a list of boards you've created.
+Click on the **Boards** icon (shown below) in your Resource Panel to open a list of boards you've created.
 
-![](../.gitbook/assets/image%20%28119%29.png)
+![](<../.gitbook/assets/image (8).png>)
 
 ### Create Boards
 
 To create a new board, click on the "**+**" sign at the top of your boards list.
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](<../.gitbook/assets/image (9).png>)
 
 #### Give your Board a good name
 
@@ -40,17 +40,17 @@ Each board will have its name displayed, along with a dropdown list of all of th
 
 To switch to another Board, click on the name of a Board other than the one you currently have open.
 
-![](../.gitbook/assets/openboard.gif)
+![](../.gitbook/assets/OpenBoard.gif)
 
 #### Preview queries in another Board
 
 If instead you want to preview queries in another Board without switching, expand a Board to view the queries inside by clicking the ► icon.
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](<../.gitbook/assets/image (10).png>)
 
 Clicking on a query in the dropdown will open up a preview of its SQL in your results grid.
 
-![Previewing the &quot;Crimes by District&quot; query, which is inside the &quot;SF Police Data&quot; Board](../.gitbook/assets/previewquery.jpg)
+![Previewing the "Crimes by District" query, which is inside the "SF Police Data" Board](../.gitbook/assets/PreviewQuery.jpg)
 
 {% hint style="info" %}
 If you click on a query within your active board, then you will be switched to that tab instead.
@@ -60,14 +60,14 @@ If you click on a query within your active board, then you will be switched to t
 
 Sharing Boards helps when you want to collaborate on a group of queries with others. It's also just an easier way of sharing more than one query in one fell swoop.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](<../.gitbook/assets/image (97).png>)
 
 To share a Board, click on the Share button at the top of the people you want to share with, and select whether you want to give them View or Edit permissions.
 
-* **View** allows recipients to view the SQL of all Query Tabs within a Board, and run the query, but they can't modify the queries. Additionally, queries are executed on the account of the Board creator. 
+* **View** allows recipients to view the SQL of all Query Tabs within a Board, and run the query, but they can't modify the queries. Additionally, queries are executed on the account of the Board creator.\
+
 * **Edit** permissions let users modify the SQL of a Board's Query Tabs, on top of everything else they can do with View permissions. Contrasting with View permissions, queries are instead executed on the account of the person actually running the query.
 
-Finally, click "Send Invite" to share the tab. It will be accessible from the recipient\(s\) Board list, but only the tab\(s\) you share will be visible.
+Finally, click "Send Invite" to share the tab. It will be accessible from the recipient(s) Board list, but only the tab(s) you share will be visible.
 
-![](../.gitbook/assets/image%20%2823%29.png)
-
+![](<../.gitbook/assets/image (97).png>)

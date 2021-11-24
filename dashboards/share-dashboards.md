@@ -8,16 +8,14 @@ When you share a dashboard with someone, you're effectively sharing a Board with
 
 Click on the "Share" button to share your dashboard with other colleagues.
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](<../.gitbook/assets/image (95).png>)
 
 In the Share pop-up you have two options:
 
 1. Manually invite users to view or edit the dashboard
 2. Make the dashboard
 
-Additionally, you may make 
+Additionally, you may make&#x20;
 
-![](../.gitbook/assets/image%20%2810%29.png)
-
-
+![](<../.gitbook/assets/image (96).png>)
 

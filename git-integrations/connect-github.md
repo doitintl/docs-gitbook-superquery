@@ -16,13 +16,13 @@ Let's see how to set this up below.
 
 ### Step 1: Open Source Control options in your Resource Panel
 
-Click on the Source Control icon \(shown below\), and then select "Connect to Github".
+Click on the Source Control icon (shown below), and then select "Connect to Github".
 
-![](../.gitbook/assets/connectgithub.jpg)
+![](../.gitbook/assets/ConnectGithub.jpg)
 
 ### Step 2: Authorize superQuery to access your resources
 
-You will temporarily be taken to Github to sign in \(if you're not already signed in\) and then give the superQuery Github app authorization to access resources.
+You will temporarily be taken to Github to sign in (if you're not already signed in) and then give the superQuery Github app authorization to access resources.
 
 This allows superQuery to display a list of repositories, from which you'll select the one that you can connect to.
 
@@ -31,51 +31,50 @@ This allows superQuery to display a list of repositories, from which you'll sele
 After granting authorization, you will be taken back to superQuery where you can now select the repo you want to connect.
 
 {% hint style="info" %}
-Make sure your repository has **at least one file** inside _before_ connecting \(a README file works just fine\)
+Make sure your repository has **at least one file** inside _before_ connecting (a README file works just fine)
 {% endhint %}
 
-If you don't have a GitHub repository already, don't worry. You can set up a private one [**for free**](https://github.com/pricing). 
+If you don't have a GitHub repository already, don't worry. You can set up a private one [**for free**](https://github.com/pricing).&#x20;
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](<../.gitbook/assets/image (21).png>)
 
-### Step 4 \[optional\]: Request permission to install the superQuery Github application
+### Step 4 \[optional]: Request permission to install the superQuery Github application
 
-In cases where you want to connect to a repository you're not the owner of — such as a repository inside of your company's [GitHub Organization](https://help.github.com/en/articles/about-organizations) — you have to request permission from the repository owner.  
-  
+In cases where you want to connect to a repository you're not the owner of — such as a repository inside of your company's [GitHub Organization](https://help.github.com/en/articles/about-organizations) — you have to request permission from the repository owner.\
+\
 To request permission, [go here](https://github.com/apps/superQuery-io/installations/new).
 
 Select your company's GitHub Organization to request access.
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](<../.gitbook/assets/image (22).png>)
 
 Then, determine whether you want to request permission for all repositories, or specific ones.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](<../.gitbook/assets/image (23).png>)
 
-### Step \#5: View your changes in GitHub
+### Step #5: View your changes in GitHub
 
-In GitHub, your queries are organized in your project under a pre-determined hierarchy of User &gt; [Board](../superquery-editor/organizing-queries.md) &gt; [Query Tab](../superquery-editor/query-tabs.md).
+In GitHub, your queries are organized in your project under a pre-determined hierarchy of User > [Board](../superquery-editor/organizing-queries.md) > [Query Tab](../superquery-editor/query-tabs.md).
 
 To see your changes in GitHub, find your query by clicking on:
 
 1. **superQuery**, then
-2. Your superQuery **username** \(i.e. email address\), then
+2. Your superQuery **username** (i.e. email address), then
 3. The **Board** the query is in, and finally
 4. The name of the **query tab**, you made the changes in.
 
-For example, in our case the path would be **superquery-queries** \[project\] &gt; **superQuery &gt; My Store Sales** \[Board name\] &gt; **Best performing products by category & period** \[tab name\].
+For example, in our case the path would be **superquery-queries** \[project] > **superQuery > My Store Sales** \[Board name] > **Best performing products by category & period** \[tab name].
 
-Once arriving at the query tab you want to examine \(in our case below, "Most Profitable Days"\), you will see the last version committed to your GitHub project.
+Once arriving at the query tab you want to examine (in our case below, "Most Profitable Days"), you will see the last version committed to your GitHub project.
 
 To view the history of changes and see what changes were made, click on "History"
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](<../.gitbook/assets/image (48).png>)
 
 You will be able to see your latest commits / changes made to that tab.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](<../.gitbook/assets/image (49).png>)
 
 Finally, click on any of the messages to see the changes made in that commit.
 
-![](../.gitbook/assets/image%20%2865%29.png)
-
+![](<../.gitbook/assets/image (50).png>)
