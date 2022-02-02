@@ -1,5 +1,15 @@
 # What is superQuery?
 
+{% hint style="warning" %}
+After March 31st, 2022, we will be sunsetting superQuery and it will not be accessible anymore.
+
+For a list of alternative IDE solutions you can use in superQuery's place and answers to frequently asked questions, [click here](https://docs.google.com/document/d/1ANH0SZNocv71nE6fIEPDPb\_ilGWDvftM3BicorjwXJ8/edit#bookmark=id.b6y8h7usq6gg).
+{% endhint %}
+
+{% hint style="success" %}
+Are you a DoiT International customer? If so, you can use the [BigQuery Lens](https://www.loom.com/share/7f00f912d1cc4993a89077214bd7b358) to get optimization recommendations and insights into your team's BigQuery usage.
+{% endhint %}
+
 superQuery is a web-based IDE that helps data analysts & scientists work more productively when querying data stored in Google BigQuery, AWS Athena (S3), and AWS DynamoDB.
 
 ### What can I do with superQuery?
